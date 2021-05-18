@@ -127,7 +127,7 @@ for i in range(minutes):
             azimuth = 2 * np.pi - azimuth
     elevation = to_degrees(elevation)
     array_azimuth.append(azimuth)
-    array_time.append(start_time + timedelta(hours=3)) #перевод в local
+    array_time.append(start_time + timedelta(hours=3)) #перевод в local///// не нужна
     array_elevation.append(elevation)
 
 for i in range(len(array_time)):
